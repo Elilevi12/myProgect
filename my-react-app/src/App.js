@@ -8,7 +8,7 @@ import MyButton from "./myButton";
 function App() {
   return (
     <div className="App">
-      <h1>Personal diary</h1>
+      <h1>Personal diary..</h1>
 <ListItems/>
 <Time/>
 <MyButton/>
