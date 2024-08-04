@@ -2,17 +2,21 @@ import logo from "./logo.svg";
 import "./App.css";
 import Print from "./tempApp/Printt";
 import ListItems from "./tempApp/ListItems";
-import Time from "./tempApp/Time"
+import Time from "./tempApp/Time";
 import MyButton from "./tempApp/myButton";
-const titleName = prompt("Please enter a title name!!");
+import MyFunk from "./dvir/MyFunk";
+import AppPost from "./AppPost";
+// const titleName = prompt("Please enter a title name!!");
 function App() {
   return (
     <div className="App">
-      <h1>hello {titleName}</h1>
-<ListItems/>
+      <AppPost />
+      {/* <h1>hello {titleName}</h1> */}
+      {/* <MyFunk /> */}
+      {/* <ListItems/>
 <MyButton/>
 <Time/>
-<Print name="eli" age={5}/>
+<Print name="eli" age={5}/> */}
     </div>
   );
 }

@@ -1,17 +1,14 @@
-function Id(propsi) {
-    console.log(propsi);
+function Id(props) {
+  // console.log(props);
   return (
     <div>
-      <h1>
-        name: {`${propsi.firstName} ${propsi.lastName}`}
-      </h1>
-      <h2>ID number: {propsi.idNumber}</h2>
-      <h2>Country of Origin:{propsi.countryOfOrigin} </h2>
+      <h1>name: {`${props.firstName} ${props.lastName}`}</h1>
+      <h2>ID number: {props.idNumber}</h2>
+      <h2>Country of Origin:{props.countryOfOrigin} </h2>
     </div>
   );
 }
-Id.defaultPropsi = {
-    countryOfOrigin: 'Israel',
-    
-  };
+Id.defaultProps = {
+  countryOfOrigin: "Israel",
+};
 export default Id;

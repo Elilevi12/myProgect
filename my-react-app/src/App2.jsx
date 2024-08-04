@@ -27,8 +27,9 @@ function App2() {
             obg={b}
             takeBook={takeBook}
             onshelf={b.onshelf}
+            kye={i}
             className={`${b.likes > 100 ? "yes" : "not"} ${
-              b.onshelf ? "onshelf" : "notOnshelf "
+              b.onshelf ? "onshelf" : "notOnshelf " 
             }`}
           >
             <h5 style={{ backgroundColor: "brown", border: "5px solid black" }}>
