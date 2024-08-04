@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App2 from './App2';
+import App3 from './App3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=>{
 root.render(
   <React.StrictMode>
-    <App />
+    <App2 />
   </React.StrictMode>
 )
 // },1000);

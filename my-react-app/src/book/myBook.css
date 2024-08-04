@@ -1,0 +1,15 @@
+* {
+  /* background-color: aqua; */
+}
+.onshelf {
+  border: 8px solid brown;
+}
+.yes {
+  font-size: 17px;
+  background-color: rgb(44, 221, 58);
+}
+#notOnshelf {
+  .onshelf {
+    border: 8px solid rgb(36, 11, 11);
+  }
+}
