@@ -12,12 +12,10 @@ function AppPost() {
   const [like, setLike] = useState(true);
 
   function changeLike(event) {
+    console.log(event);
 
-    setLike (!like);
-  
-    
+    setLike(!like);
   }
-
 
   return (
     <div className="main">
@@ -25,6 +23,7 @@ function AppPost() {
       {arrPost.map((p) => {
         return (
           <Post
+            setLike={setLike}
             content={p.content}
             like={like}
             theResponder={p.theResponder}
